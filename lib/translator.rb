@@ -1,8 +1,8 @@
 require 'yaml' # require modules here
 
 def load_library(file_path)
-  get_meaning ={}
-  get_emoticon ={}
+  get_meaning = {}
+  get_emoticon = {}
   YAML.load_file(file_path).each {|meaning,emoticon|
   get_meaning[emoticon[1]] = meaning
   get_emoticon[emoticon[0]] = emoticon [1]
