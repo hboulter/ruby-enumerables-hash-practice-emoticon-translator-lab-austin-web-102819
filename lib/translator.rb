@@ -7,7 +7,7 @@ def load_library(file_path)
   get_meaning[emoticon[1]] = meaning
   get_emoticon[emoticon[0]] = emoticon [1]
   }
-  hash = {"get_meaning" => {}, "get_emoticon" => {}}
+  hash = {"get_meaning" => get_meaning, "get_emoticon" => get_emoticon}
   hash
 end
 
